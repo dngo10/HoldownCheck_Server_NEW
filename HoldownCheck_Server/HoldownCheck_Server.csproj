@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\pics\FileNotFound.png" />
+    <Content Remove="wwwroot\pics\HD12.png" />
+    <Content Remove="wwwroot\pics\HD19.png" />
+    <Content Remove="wwwroot\pics\HD3B.png" />
+    <Content Remove="wwwroot\pics\HD5B.png" />
+    <Content Remove="wwwroot\pics\HD7B.png" />
+    <Content Remove="wwwroot\pics\HD9B.png" />
+    <Content Remove="wwwroot\pics\HDQ8.png" />
+    <Content Remove="wwwroot\pics\HDU11.png" />
+    <Content Remove="wwwroot\pics\HDU14.png" />
+    <Content Remove="wwwroot\pics\HDU2.png" />
+    <Content Remove="wwwroot\pics\HDU4.png" />
+    <Content Remove="wwwroot\pics\HDU5.png" />
+    <Content Remove="wwwroot\pics\HDU8.png" />
+    <Content Remove="wwwroot\pics\HHDQ11.png" />
+    <Content Remove="wwwroot\pics\HHDQ14.png" />
+    <Content Remove="wwwroot\pics\HTT5.png" />
+    <Content Remove="wwwroot\pics\PAB.png" />
+    <Content Remove="wwwroot\pics\SSTB.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\pics\FileNotFound.png" />
+    <None Include="wwwroot\pics\HD12.png" />
+    <None Include="wwwroot\pics\HD19.png" />
+    <None Include="wwwroot\pics\HD3B.png" />
+    <None Include="wwwroot\pics\HD5B.png" />
+    <None Include="wwwroot\pics\HD7B.png" />
+    <None Include="wwwroot\pics\HD9B.png" />
+    <None Include="wwwroot\pics\HDQ8.png" />
+    <None Include="wwwroot\pics\HDU11.png" />
+    <None Include="wwwroot\pics\HDU14.png" />
+    <None Include="wwwroot\pics\HDU2.png" />
+    <None Include="wwwroot\pics\HDU4.png" />
+    <None Include="wwwroot\pics\HDU5.png" />
+    <None Include="wwwroot\pics\HDU8.png" />
+    <None Include="wwwroot\pics\HHDQ11.png" />
+    <None Include="wwwroot\pics\HHDQ14.png" />
+    <None Include="wwwroot\pics\HTT5.png" />
+    <None Include="wwwroot\pics\PAB.png" />
+    <None Include="wwwroot\pics\SSTB.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
